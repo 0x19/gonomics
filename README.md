@@ -7,7 +7,7 @@ Nomics API Doc : https://nomics.com/docs
 
 Nomics provides professional-grade market data APIs to institutional crypto investors and exchanges. To our luck, this awesome sleek APIs can be accessed freely as well through their free plan. So here is Go client for you to further enrich the whole experience.
 
-**Note:** This is an unofficial library, so some new API's included / changed ones in nomics may not reflect here in this client immediately, so be always check the official doc once, before checking in this client into your application.
+**Note:** This is an unofficial effort, so some new API's included / changed ones in nomics may not reflect here in this client immediately, so be always check the official doc once, before checking in this client into your application.
 
 Copyright (c) 2021 Pavan Shetty. Licensed under the MIT License.
 
