@@ -85,7 +85,7 @@ const (
 
 	// Only used for Unit Testing.
 	// Please check this latest demo key published in nomics doc or use private key for paid API endpoint testing.
-	demoAPIKey = "demo-b5d84e505a11969a7184f899fbb40ae1"
+	demoAPIKey = "demo-6410726746980cead2a17c9db9ef29af"
 )
 
 // Connecter to connect nomics server.
