@@ -5,11 +5,11 @@ The unofficial Go client for communicating with the Nomics API.
 Nomics Website : https://nomics.com/  
 Nomics API Doc : https://nomics.com/docs
 
-Nomics provides professional-grade market data APIs to institutional crypto investors and exchanges. To our luck, some of this awesome sleek APIs can be accessed freely through their free plan as well. So here is Go client for you to further enrich the whole experience.
+Nomics provides professional-grade market data APIs to institutional crypto investors and exchanges. To our luck, some of this awesome sleek APIs can be accessed freely through their free plan as well. So here is a Go client for you to further enrich the whole experience.
 
 **Note:** 
 1. This is an unofficial effort, so some new API's included / changed ones in nomics may not reflect here in this client immediately, so be always check the official doc once, before checking in this client into your application.
-2. Although both free and paid plan Nomics APIs has been supported in this client with unit test, only free APIs has been really tested with hitting Nomics APIs. So, it really helps if someone having paid plan key tests this. 
+2. Although both free and paid plan Nomics APIs have been supported in this client with unit test, only free APIs have been really tested with hitting Nomics APIs. So, it really helps if someone having paid plan key tests this. 
 
 Copyright (c) 2021 Pavan Shetty. Licensed under the MIT License.
 
@@ -26,11 +26,11 @@ https://github.com/milkywaybrain/nomics-postman-api-collection
 ```
 go get github.com/milkywaybrain/gonomics
 ```
-**Note:** Gonomics uses only golang standard library, so no external dependencies. 
+**Note:** Gonomics uses only the golang standard library, so no external dependencies. 
 
 ## Client usage
 
-Usage is simple. Create required request struct with all the needed values and call the function on connector with this. Then you will get the response in a specific struct with all the fields filled with values from the nomics server. In case of CSV request, it saves the file on provided path on disk.
+Usage is simple. Create a required request struct with all the needed values and call the function on connector with this. Then you will get the response in a specific struct with all the fields filled with values from the nomics server. In case of CSV request, it saves the file on the provided path on disk.
 
 ```go
 
@@ -88,7 +88,7 @@ func main() {
 ```
 **Note:**
 1. Base nomics URL and all the other API endpoints are mentioned in connector.go file.
-2. See *_test.go files for examples and different usage scenario.
+2. See *_test.go files for examples and different usage scenarios.
 
 ## Run unit tests
 
@@ -103,8 +103,8 @@ go test -plan=free -v
 ```
 
 **Note:** 
-1. For test purpose, it will take the demo key from connector.go, demoAPIKey. So, Please check the latest demo key published in nomics doc or use private key for paid API endpoint testing.
-2. All the CSV files generated from test will be saved in ./testdata directory, which will be ignored for check in.
+1. For test purposes, it will take the demo key from connector.go, demoAPIKey. So, Please check the latest demo key published in nomics doc or use private key for paid API endpoint testing.
+2. All the CSV files generated from the test will be saved in ./testdata directory, which will be ignored for check in.
 
 ## Donate
 
